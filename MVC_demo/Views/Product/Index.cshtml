@@ -1,0 +1,29 @@
+﻿@model List<MVC_demo.Models.Product>
+<h2>Product List</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+
+    @if (Model != null)
+    {
+        
+    
+     foreach (var p in Model)
+     {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price.ToString("C")</td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="3">No data available</td>
+        </tr>
+    }
+</table>
