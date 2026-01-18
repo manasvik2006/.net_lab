@@ -9,7 +9,7 @@ namespace MVC_demo.Controllers
         {
             //var products = new List<Product>
 
-            List<Product> products = new List<Product>()
+            List<Product> products = new List<Product>()         //first commit
             {
                 new Product {Id=1, Name="Milk",Price=30},
                 new Product {Id=2, Name= "Egg", Price= 9 },
