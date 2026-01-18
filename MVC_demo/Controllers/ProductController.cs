@@ -11,7 +11,7 @@ namespace MVC_demo.Controllers
 
             List<Product> products = new List<Product>()         //first commit
             {
-                new Product {Id=1, Name="Milk",Price=30},
+                new Product {Id=1, Name="Milk",Price=30},        //second commit
                 new Product {Id=2, Name= "Egg", Price= 9 },
                 new Product {Id=3,Name= "Bread", Price=45}
             };
